@@ -1,0 +1,10 @@
+/bin
+.DS_STORE
+/.idea
+/.vscode
+/openapi/venv/
+openapi/__pycache__
+vendor
+.env
+.env.secret
+.env.personal

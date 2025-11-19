@@ -1,0 +1,23 @@
+environment: production
+
+server:
+  port: "8080"
+  host: "0.0.0.0"
+
+logging:
+  level: "info"
+  format: "json"
+  output: "stdout"
+
+metrics:
+  prometheus_enabled: true
+  namespace: "metrics_simulator"
+  subsystem: "app"
+
+scenarios:
+  max_active: 10
+  default_log_count: 1000
+
+storage:
+  type: "memory"  # memory, redis, postgres
+  max_logs: 50000

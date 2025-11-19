@@ -1,0 +1,27 @@
+{
+  "name": "metrics-simulator-frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "antd": "^5.9.0",
+    "axios": "^1.5.0",
+    "dayjs": "^1.11.9",
+    "lucide-react": "^0.288.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "recharts": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "terser": "^5.44.1",
+    "vite": "^4.4.0"
+  }
+}
